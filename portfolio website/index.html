@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <body>
+    <nav id="view">
+      <div class="logo">M D Aravind</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">M D Aravind</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="pic">
+        <img
+          src="./assets/profilepicture.jpg"
+          alt="My profile pic"
+          class="clip-circle"
+        />
+      </div>
+      <div class="text">
+        <p class="text_p1">Hello, I'm</p>
+        <h1 class="title">M D Aravind</h1>
+        <p class="text_p2">Full Stack Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume.pdf')"
+          >
+            Resume
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#Contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="Social-media">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/61/61109.png"
+            alt="Linkedin Profile"
+            class="icon1"
+            onclick="location.href='https://www.linkedin.com/in/m-d-aravind-3008582a0/'"
+          />
+          <img
+            src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+            alt="Github Profile"
+            class="icon2"
+            onclick="location.href='https://github.com/mdaravind123'"
+          />
+          <img
+            src="https://img.freepik.com/premium-vector/modern-badge-logo-instagram-icon_578229-124.jpg"
+            class="icon3"
+            onclick="location.href='https://www.instagram.com/mdaravind979/#'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="text">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img
+            src="./assets/profilepic3.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/education.jpg" class="icon" />
+              <h2>Education</h2>
+              <p>Chennai institute of Technology</p>
+              <p>B.E. Computer Science and Engineering</p>
+              <p>2026</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/skills.jpg" alt="skills" class="icon" />
+              <h2>Skills</h2>
+              <br>
+              <div class="programming">
+                <div>
+                  <img
+                    src="https://i.pinimg.com/564x/85/6e/45/856e4546b8c202dda03e97771f76f902.jpg"
+                    alt="python"
+                    class="icon"
+                  />
+                  <p>Python</p>
+                </div>
+                <div>
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png"
+                    alt="C"
+                    class="icon"
+                  />
+                  <p>C</p>
+                </div>
+                <div>
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png"
+                    alt="C++"
+                    class="icon"
+                  />
+                  <p>C++</p>
+                </div>
+                <div>
+                  <img
+                    src="https://assets-global.website-files.com/6377ac1a39ff1e65214224e5/64d26ed75e39c4c591e01c3d_64c96a772785e6db2d21f850_java-logo-transparent-free-png.png"
+                    alt="Java"
+                    class="icon"
+                  />
+                  <p>Java</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Possess continious learning, Excellent problem-solving and
+              communication skills, with a passion for callaborating with
+              diverse teams to drive success. Seeking to lewerage my expertise
+              and success of a forward-thinking organization.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://static-00.iconduck.com/assets.00/arrow-circle-down-o-icon-2048x2048-blag4few.png"
+        alt="arrow"
+        class="arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="text_p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontent Development</h2>
+            <br>
+            <div class="article-container">
+              <article>
+                <img src="https://static.vecteezy.com/system/resources/previews/010/451/469/original/green-check-mark-icon-tick-symbol-in-green-color-illustration-free-vector.jpg" alt="HTML" class="icon">
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://static.vecteezy.com/system/resources/previews/010/451/469/original/green-check-mark-icon-tick-symbol-in-green-color-illustration-free-vector.jpg" alt="CSS" class="icon">
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://static.vecteezy.com/system/resources/previews/010/451/469/original/green-check-mark-icon-tick-symbol-in-green-color-illustration-free-vector.jpg" alt="JavaScript" class="icon">
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://static.vecteezy.com/system/resources/previews/010/451/469/original/green-check-mark-icon-tick-symbol-in-green-color-illustration-free-vector.jpg" alt="React" class="icon">
+                <div>
+                  <h3>React</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <br>
+            <div class="article-container">
+              <article>
+                <img src="https://static.vecteezy.com/system/resources/previews/010/451/469/original/green-check-mark-icon-tick-symbol-in-green-color-illustration-free-vector.jpg" alt="SQL" class="icon">
+                <div>
+                  <h3>SQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://static.vecteezy.com/system/resources/previews/010/451/469/original/green-check-mark-icon-tick-symbol-in-green-color-illustration-free-vector.jpg" alt="NodeJS" class="icon">
+                <div>
+                  <h3>NodeJs</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://static.vecteezy.com/system/resources/previews/010/451/469/original/green-check-mark-icon-tick-symbol-in-green-color-illustration-free-vector.jpg" alt="ExpressJs" class="icon">
+                <div>
+                  <h3>ExpressJs</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="https://static.vecteezy.com/system/resources/previews/010/451/469/original/green-check-mark-icon-tick-symbol-in-green-color-illustration-free-vector.jpg" alt="Git" class="icon">
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://static-00.iconduck.com/assets.00/arrow-circle-down-o-icon-2048x2048-blag4few.png"
+        alt="arrow"
+        class="arrow"
+        onclick="location.href='./#Projects'"
+      />
+    </section>
+    <section id="Projects">
+      <p class="text_p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="https://i.pinimg.com/1200x/01/18/e9/0118e9143434c692ebddd0b848e90ce7.jpg" alt="ResumeBuilder" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Resume Builder</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/mdaravind123/Resume-Maker'">
+              GitHub
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://mdaravind123.github.io/Resume-Maker/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Calculator-icon.png" alt="Calculator" class="project-img1">
+          </div>
+          <h2 class="experience-sub-title project-title">Calculator</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/mdaravind123/Calculator'">
+              GitHub
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://mdaravind123.github.io/Calculator/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        </div>
+      </div>
+      <img
+        src="https://static-00.iconduck.com/assets.00/arrow-circle-down-o-icon-2048x2048-blag4few.png"
+        alt="arrow"
+        class="arrow1"
+        onclick="location.href='./#Contact'"
+      />
+    </section>
+    <section id="Contact">
+      <p class="text_p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="https://cdn-icons-png.flaticon.com/512/2250/2250206.png" alt="Email Icon" class="icon contact-icon email-icon">
+          <p><a href="mailto:mdaravind2004@gmail.com">mdaravind2004@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="LinkedIn Icon" class="icon1 contact-icon">
+          <p><a href="https://www.linkedin.com/in/m-d-aravind-3008582a0/'">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="https://img.freepik.com/premium-vector/modern-badge-logo-instagram-icon_578229-124.jpg" alt="Instagram Icon" class="icon3 contact-icon insta-icon">
+          <p><a href="https://www.instagram.com/mdaravind979/#">Instagram</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>CopyRight &#169; 2023 M D Aravind. All Rights Reserved.</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
